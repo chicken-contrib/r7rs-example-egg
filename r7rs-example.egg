@@ -1,0 +1,15 @@
+;;; -*- Scheme -*-
+
+;;; This file is used by the CHICKEN 5 extension manager
+;;; (chicken-install)
+
+((synopsis "Example egg using (define-library ...) instead of (module ...)")
+ (category egg-tools)
+ (license "MIT")
+ (author "Lassi Kortela")
+ (maintainer "Lassi Kortela")
+ (dependencies r7rs)
+ (distribution-files "r7rs-example.sld")
+ (components
+  (extension r7rs-example
+             (source "r7rs-example.sld"))))
