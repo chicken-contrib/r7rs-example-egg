@@ -1,4 +1,3 @@
-(import (r7rs))
 (define-library (r7rs-example)
   (export say-hello)
   (import (scheme base) (scheme case-lambda))

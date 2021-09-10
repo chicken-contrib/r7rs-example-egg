@@ -12,4 +12,8 @@
  (distribution-files "r7rs-example.sld")
  (components
   (extension r7rs-example
-             (source "r7rs-example.sld"))))
+             (source "r7rs-example.sld")
+             (csc-options "-R" "r7rs" "-X" "r7rs"))
+  (extension r7rs-example.sublibrary
+             (source "r7rs-example/sublibrary.sld")
+             (csc-options "-R" "r7rs" "-X" "r7rs"))))
